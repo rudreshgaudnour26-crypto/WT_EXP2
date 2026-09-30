@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 50px;
+}
+
+/* Form Container */
+.form-container {
+    width: 350px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border: 1px solid #ccc;
+    
+}
+
+/* Form Title */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* All the inputs*/
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Labels */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Text & Password Input Fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Theres only one button*/
+button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    cursor: pointer;
+     background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover{
+     transform: translateY(-2px);
+}
+
+.error-text {
+    color: red;
+    font-size: 13px;
+    margin-top: 5px;
+    display: block;
+}
